@@ -19,7 +19,7 @@ convert_to_png() {
 	# shellcheck disable=SC2016
 	for file in "$src_dir"/*.svg; do
 		[ -f "$file" ] || continue
-		for size in 32 64; do
+		for size in 24 32 48 64; do
 			bitmap_file="${out_dir%/}/$(basename "$file" .svg)_${size}.png"
 
 			svg_mtime="$(stat -c '%Y' "$file")"
