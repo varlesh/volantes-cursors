@@ -97,4 +97,5 @@ for theme_src_dir in "$SRC_DIR"/*; do
 	create_aliases "$theme_out_dir"/cursors
 
 	cp -f "$theme_src_dir/index.theme" "$theme_out_dir"/
+	cp -f "$theme_src_dir/cursor.theme" "$theme_out_dir"/
 done

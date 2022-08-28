@@ -1,8 +1,11 @@
 00000000000000020006000e7e9ffc3f progress
 00008160000006810000408080010102 size_ver
+028006030e0e7ebffc7f7070c0600140 h_double_arrow
 03b6e0fcb3499374a867c041f52298f0 circle
 08e8e1c95fe2fc01f976f1e063a24ccd progress
 1081e37283d90000800003c07f3ef6bf copy
+14fef782d02440884392942c11205230 sb_h_double_arrow
+2870a09082c103050810ffdffffe0204 sb_v_double_arrow
 3085a0e285430894940527032f8b26df alias
 3ecb610c1bf2410f44200f48c40d3599 progress
 4498f0e0c1937ffe01fd06f973665830 dnd-move
@@ -11,16 +14,17 @@
 640fb0e74195791501fd1ed57b41487f alias
 9081237383d90e509aa00f00170e968f dnd-move
 9d800788f1b08800ae810202380a0822 pointer
+X_cursor x-cursor
 a2a266d0498c3104214a47bd64ab0fc8 alias
-b66166c04f8c3109214a4fbd64a50fc8 copy
-d9ce0ab605698f320427677b458ad60b help
-e29285e634086352946a0e7090d73106 pointer
-fcf21c00b30f7e3f83fe0dfd12e71cff dnd-move
-arrow default
 alias copy
 all-scroll fleur
+arrow default
+b66166c04f8c3109214a4fbd64a50fc8 copy
+bd_double_arrow size_bdiag
 bottom_left_corner size_bdiag
 bottom_right_corner size_fdiag
+bottom_tee
+c7088f0f3e6c8088236ef8e1e3e70000 bd_double_arrow
 cell crosshair
 center_ptr default
 circle not-allowed
@@ -30,16 +34,31 @@ color-picker crosshair
 context-menu default
 copy dnd-move
 cross crosshair
+cross_reverse cross
 crossed_circle not-allowed
 crosshair default
+d9ce0ab605698f320427677b458ad60b help
+diamond_cross cross
+dnd-ask
 dnd-copy copy
+dnd-link
 dnd-move default
 dnd-no-drop not-allowed
 dnd-none dnd-move
+dot_box_mask dotbox
+dotbox
+double_arrow sb_v_double_arrow
 down-arrow default
 draft pencil
+draft_large right_ptr
+draft_small right_ptr
+draped_box dotbox
 e-resize size_hor
+e29285e634086352946a0e7090d73106 pointer
 ew-resize size_hor
+fcf1c3c7cd4491d801f1e1c78f100000 fd_double_arrow
+fcf21c00b30f7e3f83fe0dfd12e71cff dnd-move
+fd_double_arrow size_bdiag
 fleur default
 forbidden no-drop
 grab openhand
@@ -51,21 +70,23 @@ hand1 pointer
 hand2 pointer
 help default
 ibeam text
+icon dotbox
 left-arrow default
 left_ptr default
 left_ptr_help help
 left_ptr_watch progress
 left_side left-arrow
+left_tee
 link alias
 ll_angle bottom_left_corner
 lr_angle bottom_right_corner
 move dnd-move
 n-resize size_ver
-ns-resize size_ver
 ne-resize size_bdiag
 nesw-resize size_bdiag
 no-drop not-allowed
 not-allowed default
+ns-resize size_ver
 nw-resize size_fdiag
 nwse-resize size_fdiag
 openhand default
@@ -79,9 +100,14 @@ question_arrow help
 right-arrow default
 right_ptr default
 right_side right-arrow
+right_tee
 row-resize size_ver
 s-resize size_ver
+sb_down_arrow down-arrow
 sb_h_double_arrow size_hor
+sb_left_arrow left-arrow
+sb_right_arrow right-arrow
+sb_up_arrow up-arrow
 sb_v_double_arrow size_ver
 se-resize size_fdiag
 size-bdiag default
@@ -92,14 +118,17 @@ size_all fleur
 split_h col-resize
 split_v row-resize
 sw-resize size_bdiag
+target dotbox
+tcross crosshair
 text default
 top_left_arrow default
 top_left_corner size_fdiag
 top_right_corner size_bdiag
 top_side up-arrow
+top_tee
 ul_angle top_left_corner
-ur_angle top_right_corner
 up-arrow default
+ur_angle top_right_corner
 v_double_arrow size_ver
 vertical-text text
 w-resize size_hor
@@ -108,7 +137,6 @@ watch wait
 wayland-cursor default
 whats_this help
 x-cursor default
-X_cursor x-cursor
 xterm text
 zoom-in default
 zoom-out default
